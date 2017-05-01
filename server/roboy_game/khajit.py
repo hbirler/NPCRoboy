@@ -240,8 +240,8 @@ class WhatswordState(State):
 			return "Face roboy when you speak!"
 			
 		game.set_player_state(player, states.GS.khajit_end)
-		pname = game.player_info[player].first_name
-		roboy_interface.roboy_say(diag)
+		#pname = game.player_info[player].first_name
+		#roboy_interface.roboy_say(diag)
 		pass
 	
 	def on_opt_diag2(self, game:Game, player:int):
@@ -249,8 +249,8 @@ class WhatswordState(State):
 			return "Face roboy when you speak!"
 			
 		game.set_player_state(player, states.GS.khajit_end)
-		pname = game.player_info[player].first_name
-		roboy_interface.roboy_say(diag)
+		#pname = game.player_info[player].first_name
+		#roboy_interface.roboy_say(diag)
 		pass
 	
 	def on_speak(self, game:Game, player:int):

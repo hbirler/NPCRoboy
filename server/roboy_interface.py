@@ -5,7 +5,7 @@ import threading, sys
 import flaskapp
 
 def roboy_say(text:str):
-    return
+    #return
     #text = "A. " + text 
     log.info("ROBOYSAY: " + text)
     #text = text.replace("'", "\\'")
@@ -19,7 +19,7 @@ def roboy_emotion(state:bool):
     if state == catstate:
         return
     catstate = state
-    return
+    #return
     #text = "A. " + text 
     log.info("ROBOYEMOTION")
     #text = text.replace("'", "\\'")
